@@ -98,7 +98,7 @@
             "Help: the agent delivers the summary of what changed and the 3 things for the client to confirm."
           ],
           "exemplo": {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "texto": "A links script picked up the wrong course name in a subfolder. It was caught in the pilot, before the push. That's what running small and checking beforehand is for."
           }
         },
@@ -107,7 +107,7 @@
           "sub": "a number that doesn't add up",
           "texto": [
             "Every number the agent produces goes through a cross-check: the part can't be bigger than the whole.",
-            "At INEMA, an export summed branded impressions by query and page and came out higher than the week's total. The fix was to sum by query only."
+            "At ARCKHÉ, an export summed branded impressions by query and page and came out higher than the week's total. The fix was to sum by query only."
           ]
         }
       ]
@@ -123,7 +123,7 @@
           "conteudo": "mkdir -p <client>/{docs,briefings,reports,scripts,data/gsc}\ncd <client> && git init -b main\nprintf '.env\\n*.key\\ncredenciais/\\n' > .gitignore\ntouch .env AGENTS.md data/urls-chave.txt data/consultas-alvo.txt"
         },
         {
-          "rot": "Structure (template for the INEMA working repo)",
+          "rot": "Structure (template for the ARCKHÉ working repo)",
           "icone": "pasta",
           "conteudo": "docs/        diagnosis, plan, proposal, authorization\nbriefings/   <slug>.md, one per page\ndata/gsc/    weekly export (append-only)\nreports/     semana-<data>.md, mensal-<mês>.md\nscripts/     X-ray, export, report\nAGENTS.md    client rules for the agent\n.env         secret (kept out of git)"
         },
@@ -189,7 +189,7 @@
           "p": "The agent says the week's branded impressions were higher than the total. What does that indicate?",
           "opcoes": [
             "That the site grew a lot.",
-            "A sum error: the part can't be bigger than the whole. At INEMA, summing by query and page counted the same impression more than once.",
+            "A sum error: the part can't be bigger than the whole. At ARCKHÉ, summing by query and page counted the same impression more than once.",
             "That Google's dashboard got it wrong.",
             "Nothing, it's normal."
           ],
@@ -234,18 +234,18 @@
       "titulo": "To go further",
       "links": [
         {
-          "t": "inemaSEO method: the machine with agents",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "ARCKHÉSEO method: the machine with agents",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "robo"
         },
         {
           "t": "Quality checklist (16 items)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md",
           "icone": "check"
         },
         {
           "t": "Course 5 · With Agents",
-          "href": "https://inematds.github.io/formacao-inemaseo-agentes-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "terminal"
         }
       ]

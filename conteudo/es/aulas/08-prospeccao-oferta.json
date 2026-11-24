@@ -90,7 +90,7 @@
           ],
           "exemplo": {
             "rot": "Idea del Prospector Agent",
-            "texto": "La cinta abierta de INEMA va de descubierto → calificado → … → puerta de control → enviado, con opt-out, lista de supresión y un contacto por lead. Usa su disciplina; cambia el rediseño del sitio por el diagnóstico."
+            "texto": "La cinta abierta de ARCKHÉ va de descubierto → calificado → … → puerta de control → enviado, con opt-out, lista de supresión y un contacto por lead. Usa su disciplina; cambia el rediseño del sitio por el diagnóstico."
           }
         },
         {
@@ -106,7 +106,7 @@
           "sub": "cliente cero",
           "texto": [
             "Aplica el método en tu sitio y publica el antes y el después, incluso lo que no salió bien.",
-            "INEMA cuenta su propio cero: 0 de 52 mediciones en las IAs en julio, impresiones sin marca de 8 a 157, clics sin marca todavía en 0 en el club. Eso convence más que un testimonio."
+            "ARCKHÉ cuenta su propio cero: 0 de 52 mediciones en las IAs en julio, impresiones sin marca de 8 a 157, clics sin marca todavía en 0 en el club. Eso convence más que un testimonio."
           ]
         }
       ]
@@ -206,7 +206,7 @@
             "No conviene mostrar el cero."
           ],
           "certa": 1,
-          "explica": "INEMA muestra 0 de 52 en las IAs y 0 clics sin marca en el club. Eso es lo que hace creíbles los demás números.",
+          "explica": "ARCKHÉ muestra 0 de 52 en las IAs y 0 clics sin marca en el club. Eso es lo que hace creíbles los demás números.",
           "ref": "passos"
         }
       ]
@@ -268,7 +268,7 @@
       "tipo": "gerador",
       "titulo": "Genera tu plan con fechas",
       "sub": "Elige la fecha de inicio y cuánto tiempo tienes por semana. El plan respeta los ejercicios que piden espera.",
-      "curso": "inemaSEO 6 · Profesional",
+      "curso": "ARCKHÉSEO 6 · Profesional",
       "horas_padrao": 3,
       "degraus": [
         {
@@ -305,7 +305,7 @@
         }
       ],
       "txt": {
-        "titulo": "Plan — inemaSEO 6 · Profesional",
+        "titulo": "Plan — ARCKHÉSEO 6 · Profesional",
         "inicio": "Inicio",
         "ritmo": "Ritmo",
         "termino": "Finalización prevista",
@@ -341,22 +341,22 @@
       "links": [
         {
           "t": "Profesional 2030",
-          "href": "https://eventos.inema.pro/prof2030/",
+          "href": "https://eventos.ARCKHÉ.pro/prof2030/",
           "icone": "usuario"
         },
         {
           "t": "Formación Ventas con IA: clientes que llegan solos",
-          "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/aulas/clientes-que-chegam/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "megafone"
         },
         {
           "t": "Prospector Agent (guía)",
-          "href": "https://inematds.github.io/prospector-agent/guia/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "robo"
         },
         {
           "t": "Curso 7 · Sistemas: arma tu propio Semrush abierto",
-          "href": "https://inematds.github.io/formacao-inemaseo-sistemas-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         }
       ]

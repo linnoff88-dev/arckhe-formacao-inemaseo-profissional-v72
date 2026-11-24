@@ -5,7 +5,7 @@
   "titulo": "Del diagnóstico al plan 30/90/180, por impacto × esfuerzo",
   "titulo_curto": "Plan 30/90/180",
   "minutos": 18,
-  "lead": "El diagnóstico dice qué está mal. El plan dice en qué orden arreglarlo, quién lo hace y cómo se sabe que funcionó. El orden que funcionó en INEMA: base y medición en los primeros 30 días, contenido después, autoridad y otros idiomas solo cuando el índice responda.",
+  "lead": "El diagnóstico dice qué está mal. El plan dice en qué orden arreglarlo, quién lo hace y cómo se sabe que funcionó. El orden que funcionó en ARCKHÉ: base y medición en los primeros 30 días, contenido después, autoridad y otros idiomas solo cuando el índice responda.",
   "objetivo": "ordenar los hallazgos por impacto × esfuerzo y escribir un plan de 30/90/180 días con métrica de éxito y responsable en cada línea.",
   "competencias": [
     "priorizar-impacto-esforco",
@@ -85,11 +85,11 @@
           "titulo": "Secuencia crítica",
           "sub": "lo que bloquea todo lo demás",
           "texto": [
-            "En la hoja de ruta de INEMA, cuatro iniciativas eran base y iban en los 30 días: medición activada, enlaces de los repositorios al sitio, fichas desbloqueadas, entidad del autor.",
+            "En la hoja de ruta de ARCKHÉ, cuatro iniciativas eran base y iban en los 30 días: medición activada, enlaces de los repositorios al sitio, fichas desbloqueadas, entidad del autor.",
             "El contenido va solo después. Otros idiomas y menciones externas solo cuando el índice mostró resultado."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "El 05/10, 12 de 14 URLs clave estaban indexadas; el 13/10, 13 de 14. Solo con el índice respondiendo tiene sentido la siguiente ventana."
           }
         },
@@ -109,8 +109,8 @@
             "Escribir esto en el plan protege al cliente de ti mismo cuando haya prisa."
           ],
           "exemplo": {
-            "rot": "En INEMA",
-            "texto": "283 fichas publicadas en un solo commit: de las 6 de la muestra, 5 quedaron \"descubiertas, sin indexar\". La primera línea del \"no hacer\" de INEMA es no repetir eso."
+            "rot": "En ARCKHÉ",
+            "texto": "283 fichas publicadas en un solo commit: de las 6 de la muestra, 5 quedaron \"descubiertas, sin indexar\". La primera línea del \"no hacer\" de ARCKHÉ es no repetir eso."
           }
         }
       ]
@@ -172,7 +172,7 @@
           "cert": true
         },
         {
-          "p": "¿Qué enseña el caso de las 283 fichas de INEMA para el plan?",
+          "p": "¿Qué enseña el caso de las 283 fichas de ARCKHÉ para el plan?",
           "opcoes": [
             "Que las fichas no funcionan.",
             "Que publicar de una sola vez un lote grande de páginas delgadas frena el rastreo: de las 6 de la muestra, 5 no habían sido rastreadas.",
@@ -232,18 +232,18 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "Método inemaSEO: las 10 etapas y el Plan B",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "Método ARCKHÉSEO: las 10 etapas y el Plan B",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         },
         {
           "t": "Curso 3 · Medición y Rutina",
-          "href": "https://inematds.github.io/formacao-inemaseo-medicao-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "grafico"
         },
         {
           "t": "Ventas con IA: solución y precio que escala",
-          "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/aulas/solucao-preco/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "alvo"
         }
       ]

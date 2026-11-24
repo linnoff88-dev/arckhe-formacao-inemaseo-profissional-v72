@@ -5,7 +5,7 @@
   "titulo": "Do diagnóstico ao plano 30/90/180, por impacto × esforço",
   "titulo_curto": "Plano 30/90/180",
   "minutos": 18,
-  "lead": "O diagnóstico diz o que está errado. O plano diz em que ordem consertar, quem faz e como se sabe que deu certo. A ordem que funcionou no INEMA: fundação e medição nos primeiros 30 dias, conteúdo depois, autoridade e outros idiomas só quando o índice responder.",
+  "lead": "O diagnóstico diz o que está errado. O plano diz em que ordem consertar, quem faz e como se sabe que deu certo. A ordem que funcionou no ARCKHÉ: fundação e medição nos primeiros 30 dias, conteúdo depois, autoridade e outros idiomas só quando o índice responder.",
   "objetivo": "ordenar os achados por impacto × esforço e escrever um plano 30/90/180 dias com métrica de sucesso e dono em cada linha.",
   "competencias": ["priorizar-impacto-esforco", "escrever-plano-30-90-180", "definir-metrica-por-iniciativa"],
   "aprende": [
@@ -43,13 +43,13 @@
         {"titulo": "Matriz", "sub": "10 achados",
          "texto": ["Dê a cada achado uma nota de impacto (alto, médio, baixo) e de esforço (horas).", "Achado sem impacto no que o buscador vê ou no sem marca vai para o fim, mesmo que seja fácil."]},
         {"titulo": "Sequência crítica", "sub": "o que trava o resto",
-         "texto": ["No roteiro do INEMA, quatro iniciativas eram fundação e vinham nos 30 dias: medição ligada, links dos repositórios para o site, fichas destravadas, entidade do autor.", "Conteúdo só depois. Outros idiomas e menções externas só quando o índice mostrou resultado."],
-         "exemplo": {"rot": "No INEMA", "texto": "Em 05/10, 12 de 14 URLs-chave estavam indexadas; em 13/10, 13 de 14. Só com o índice respondendo a próxima janela faz sentido."}},
+         "texto": ["No roteiro do ARCKHÉ, quatro iniciativas eram fundação e vinham nos 30 dias: medição ligada, links dos repositórios para o site, fichas destravadas, entidade do autor.", "Conteúdo só depois. Outros idiomas e menções externas só quando o índice mostrou resultado."],
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "Em 05/10, 12 de 14 URLs-chave estavam indexadas; em 13/10, 13 de 14. Só com o índice respondendo a próxima janela faz sentido."}},
         {"titulo": "Métrica e dono", "sub": "em cada linha",
          "texto": ["Cada iniciativa tem quem faz (você, o cliente, o agente) e como se confere (um número no painel, um arquivo, uma URL respondendo).", "Meta numérica é hipótese: escreva isso e recalibre no dia 30 com o dado do painel."]},
         {"titulo": "O que não fazer", "sub": "escrito no plano",
          "texto": ["Publicar um lote grande de uma vez, rede de sites, indexador pago, página por variação de palavra-chave, tradução sem revisão.", "Escrever isso no plano protege o cliente de você mesmo quando der pressa."],
-         "exemplo": {"rot": "No INEMA", "texto": "283 fichas publicadas num commit só: das 6 da amostra, 5 ficaram \"descobertas, não indexadas\". A primeira linha do \"não fazer\" do INEMA é não repetir isso."}}
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "283 fichas publicadas num commit só: das 6 da amostra, 5 ficaram \"descobertas, não indexadas\". A primeira linha do \"não fazer\" do ARCKHÉ é não repetir isso."}}
       ]
     },
     {
@@ -84,7 +84,7 @@
         {"p": "O cliente quer começar pelos artigos. A medição ainda não está ligada. O que você propõe?",
          "opcoes": ["Começar pelos artigos, para mostrar serviço.", "Ligar a medição e a fundação nos 30 primeiros dias; sem isso, o efeito dos artigos não pode ser provado.", "Fazer tudo ao mesmo tempo.", "Esperar 6 meses."],
          "certa": 1, "explica": "Sem linha de base e export semanal, você não tem o \"antes\". O resultado dos artigos vira opinião.", "ref": "diagrama", "cert": true},
-        {"p": "O que o caso das 283 fichas do INEMA ensina para o plano?",
+        {"p": "O que o caso das 283 fichas do ARCKHÉ ensina para o plano?",
          "opcoes": ["Que fichas não funcionam.", "Que publicar um lote grande de páginas finas de uma vez trava o rastreio: das 6 da amostra, 5 não tinham sido rastreadas.", "Que é preciso pagar indexador.", "Que o Google estava fora do ar."],
          "certa": 1, "explica": "Lote grande de páginas parecidas sinaliza baixo valor. O plano escreve isso no \"não fazemos\".", "ref": "passos"},
         {"p": "Como tratar uma meta como \"X mil impressões em 90 dias\" no plano?",
@@ -108,9 +108,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "Método inemaSEO: as 10 etapas e o Plano B", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"},
-        {"t": "Curso 3 · Medição e Rotina", "href": "https://inematds.github.io/formacao-inemaseo-medicao-v72/", "icone": "grafico"},
-        {"t": "Vendas com IA: solução e preço que escala", "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/aulas/solucao-preco/", "icone": "alvo"}
+        {"t": "Método ARCKHÉSEO: as 10 etapas e o Plano B", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"},
+        {"t": "Curso 3 · Medição e Rotina", "href": "https://linnoff88-dev.github.io/ "icone": "grafico"},
+        {"t": "Vendas com IA: solução e preço que escala", "href": "https://linnoff88-dev.github.io/ "icone": "alvo"}
       ]
     }
   ]

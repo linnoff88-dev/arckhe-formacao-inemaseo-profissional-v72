@@ -102,9 +102,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "Playbook AEO/GEO (aiv2026): resumo comercial e pré-requisitos", "href": "https://github.com/inematds/aiv2026/blob/main/playbook-aeo-geo.md", "icone": "arquivo"},
-        {"t": "Vendas com IA: solução e preço que escala", "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/aulas/solucao-preco/", "icone": "alvo"},
-        {"t": "Vendas com IA: preço do primeiro cliente", "href": "https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/aulas/preco/", "icone": "alvo"}
+        {"t": "Playbook AEO/GEO (aiv2026): resumo comercial e pré-requisitos", "href": "https://github.com/linnoff88-dev/aiv2026/blob/main/playbook-aeo-geo.md", "icone": "arquivo"},
+        {"t": "Vendas com IA: solução e preço que escala", "href": "https://linnoff88-dev.github.io/ "icone": "alvo"},
+        {"t": "Vendas com IA: preço do primeiro cliente", "href": "https://linnoff88-dev.github.io/ "icone": "alvo"}
       ]
     }
   ]

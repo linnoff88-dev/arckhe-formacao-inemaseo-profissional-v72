@@ -43,11 +43,11 @@
          "texto": ["Num diagnóstico só: o que o buscador vê, a bateria nas IAs e a prontidão para agentes. Site novo, quando precisar, entra como parte do plano, não como o produto.", "WebMCP é preparação: rascunho de comunidade do W3C (document.modelContext), sem navegador estável. Não é fator de ranking."]},
         {"titulo": "Achar prospects", "sub": "achado público",
          "texto": ["Negócios bem avaliados cujo site tem um problema que se vê de fora: página sem texto no HTML, canônico misturado, robôs de busca bloqueados.", "Anote o achado e a URL. É o motivo do contato, e já é uma amostra do diagnóstico."],
-         "exemplo": {"rot": "Ideia do Prospector Agent", "texto": "A esteira aberta do INEMA vai de descoberto → qualificado → … → portão → enviado, com opt-out, lista de supressão e um contato por lead. Use a disciplina dela; troque o redesenho do site pelo diagnóstico."}},
+         "exemplo": {"rot": "Ideia do Prospector Agent", "texto": "A esteira aberta do ARCKHÉ vai de descoberto → qualificado → … → portão → enviado, com opt-out, lista de supressão e um contato por lead. Use a disciplina dela; troque o redesenho do site pelo diagnóstico."}},
         {"titulo": "Primeiro contato", "sub": "curto e com saída",
          "texto": ["Uma mensagem: o achado, por que pesa, a oferta de mostrar o diagnóstico. Sem promessa de posição, com opção de não receber mais.", "Um contato por prospect. Sem resposta, não insista em sequência automática."]},
         {"titulo": "Seu site é a prova", "sub": "cliente-zero",
-         "texto": ["Aplique o método no seu site e publique o antes e depois, inclusive o que não deu certo.", "O INEMA conta o próprio zero: 0 de 52 medições nas IAs em julho, impressões sem marca de 8 para 157, cliques sem marca ainda em 0 no club. Isso convence mais que depoimento."]}
+         "texto": ["Aplique o método no seu site e publique o antes e depois, inclusive o que não deu certo.", "O ARCKHÉ conta o próprio zero: 0 de 52 medições nas IAs em julho, impressões sem marca de 8 para 157, cliques sem marca ainda em 0 no club. Isso convence mais que depoimento."]}
       ]
     },
     {
@@ -92,7 +92,7 @@
          "certa": 1, "explica": "Vender preparação como resultado é a mesma promessa vazia da posição garantida.", "ref": "passos"},
         {"p": "Por que publicar o caso do seu próprio site, inclusive o zero?",
          "opcoes": ["Para encher o portfólio.", "Porque número real com fonte, até o ruim, prova o método melhor que depoimento.", "Porque o Google exige.", "Não convém mostrar o zero."],
-         "certa": 1, "explica": "O INEMA mostra 0 de 52 nas IAs e 0 clique sem marca no club. É isso que torna os outros números críveis.", "ref": "passos"}
+         "certa": 1, "explica": "O ARCKHÉ mostra 0 de 52 nas IAs e 0 clique sem marca no club. É isso que torna os outros números críveis.", "ref": "passos"}
       ]
     },
     {
@@ -117,7 +117,7 @@
       "tipo": "gerador",
       "titulo": "Gere o seu plano com datas",
       "sub": "Escolha a data de início e quanto tempo você tem por semana. O plano respeita os exercícios que pedem espera.",
-      "curso": "inemaSEO 6 · Profissional",
+      "curso": "ARCKHÉSEO 6 · Profissional",
       "horas_padrao": 3,
       "degraus": [
         {"titulo": "Aula 1 · O que vender", "aula": "o-que-vender"},
@@ -129,7 +129,7 @@
         {"titulo": "Aula 7 · Ética e autorização", "aula": "etica-autorizacao"},
         {"titulo": "Aula 8 · Prospecção e oferta", "aula": "prospeccao-oferta"}
       ],
-      "txt": {"titulo": "Plano — inemaSEO 6 · Profissional", "inicio": "Início", "ritmo": "Ritmo", "termino": "Término previsto", "ate": "até", "pronto": "pronto quando", "semanas": "semanas", "travou": "## O que travou e o que eu decidi", "h": "h por semana", "exs": "exercícios"}
+      "txt": {"titulo": "Plano — ARCKHÉSEO 6 · Profissional", "inicio": "Início", "ritmo": "Ritmo", "termino": "Término previsto", "ate": "até", "pronto": "pronto quando", "semanas": "semanas", "travou": "## O que travou e o que eu decidi", "h": "h por semana", "exs": "exercícios"}
     },
     {
       "tipo": "resumo",
@@ -144,10 +144,10 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "Profissional 2030", "href": "https://eventos.inema.pro/prof2030/", "icone": "usuario"},
-        {"t": "Formação Vendas com IA: clientes que chegam sozinhos", "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/aulas/clientes-que-chegam/", "icone": "megafone"},
-        {"t": "Prospector Agent (guia)", "href": "https://inematds.github.io/prospector-agent/guia/", "icone": "robo"},
-        {"t": "Curso 7 · Sistemas: monte o seu Semrush aberto", "href": "https://inematds.github.io/formacao-inemaseo-sistemas-v72/", "icone": "camadas"}
+        {"t": "Profissional 2030", "href": "https://eventos.ARCKHÉ.pro/prof2030/", "icone": "usuario"},
+        {"t": "Formação Vendas com IA: clientes que chegam sozinhos", "href": "https://linnoff88-dev.github.io/ "icone": "megafone"},
+        {"t": "Prospector Agent (guia)", "href": "https://linnoff88-dev.github.io/ "icone": "robo"},
+        {"t": "Curso 7 · Sistemas: monte o seu Semrush aberto", "href": "https://linnoff88-dev.github.io/ "icone": "camadas"}
       ]
     }
   ]

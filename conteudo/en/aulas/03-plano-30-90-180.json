@@ -5,7 +5,7 @@
   "titulo": "From diagnosis to the 30/90/180 plan, by impact × effort",
   "titulo_curto": "30/90/180 plan",
   "minutos": 18,
-  "lead": "The diagnosis tells you what's wrong. The plan tells you in what order to fix it, who does it and how you know it worked. The order that worked at INEMA: foundation and measurement in the first 30 days, content afterward, authority and other languages only when the index responds.",
+  "lead": "The diagnosis tells you what's wrong. The plan tells you in what order to fix it, who does it and how you know it worked. The order that worked at ARCKHÉ: foundation and measurement in the first 30 days, content afterward, authority and other languages only when the index responds.",
   "objetivo": "sort the findings by impact × effort and write a 30/90/180-day plan with a success metric and an owner on each line.",
   "competencias": [
     "priorizar-impacto-esforco",
@@ -85,11 +85,11 @@
           "titulo": "Critical sequence",
           "sub": "what blocks the rest",
           "texto": [
-            "In the INEMA roadmap, four initiatives were foundation and came in the first 30 days: measurement turned on, repository links to the site, unlocked profiles, the author's entity.",
+            "In the ARCKHÉ roadmap, four initiatives were foundation and came in the first 30 days: measurement turned on, repository links to the site, unlocked profiles, the author's entity.",
             "Content only after that. Other languages and external mentions only once the index has shown results."
           ],
           "exemplo": {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "texto": "On 10/05, 12 of 14 key URLs were indexed; on 10/13, 13 of 14. Only with the index responding does the next window make sense."
           }
         },
@@ -109,8 +109,8 @@
             "Writing this into the plan protects the client from you when you're in a hurry."
           ],
           "exemplo": {
-            "rot": "At INEMA",
-            "texto": "283 profiles published in a single commit: of the 6 in the sample, 5 ended up \"discovered, not indexed\". The first line of INEMA's \"don't do\" list is not to repeat that."
+            "rot": "At ARCKHÉ",
+            "texto": "283 profiles published in a single commit: of the 6 in the sample, 5 ended up \"discovered, not indexed\". The first line of ARCKHÉ's \"don't do\" list is not to repeat that."
           }
         }
       ]
@@ -172,7 +172,7 @@
           "cert": true
         },
         {
-          "p": "What does the case of INEMA's 283 profile pages teach the plan?",
+          "p": "What does the case of ARCKHÉ's 283 profile pages teach the plan?",
           "opcoes": [
             "That profile pages don't work.",
             "That publishing a large batch of thin pages at once chokes crawling: of the 6 in the sample, 5 had not been crawled.",
@@ -232,18 +232,18 @@
       "titulo": "To go further",
       "links": [
         {
-          "t": "inemaSEO method: the 10 steps and Plan B",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "ARCKHÉSEO method: the 10 steps and Plan B",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         },
         {
           "t": "Course 3 · Measurement and Routine",
-          "href": "https://inematds.github.io/formacao-inemaseo-medicao-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "grafico"
         },
         {
           "t": "Selling with AI: a solution and a price that scales",
-          "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/aulas/solucao-preco/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "alvo"
         }
       ]

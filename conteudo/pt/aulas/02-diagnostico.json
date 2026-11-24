@@ -24,7 +24,7 @@
         {"icone": "chat", "titulo": "Call", "sub": "o que o cliente mede",
          "detalhe": "Antes de rodar qualquer coisa: de onde vêm os clientes hoje, quais buscas ele imagina, se tem Search Console e Bing Webmaster verificados. A conversa define as perguntas da bateria."},
         {"icone": "terminal", "titulo": "Raio-x", "sub": "HTML entregue",
-         "detalhe": "O que o servidor entrega a quem não roda JavaScript: título, canônico, hreflang, robots, sitemap, JSON-LD, links internos. auditoria.sh do método ou o auditor do inemaseo-sistemas. Só leitura, páginas públicas."},
+         "detalhe": "O que o servidor entrega a quem não roda JavaScript: título, canônico, hreflang, robots, sitemap, JSON-LD, links internos. auditoria.sh do método ou o auditor do ARCKHÉseo-sistemas. Só leitura, páginas públicas."},
         {"icone": "robo", "titulo": "Prontidão", "sub": "IA e agentes",
          "detalhe": "Nota de 0 a 100 com pesos públicos: robôs por finalidade liberados, CDN não barrando, entidade com @id, texto sem JavaScript, autoria, datas. Ferramenta agente-ready ou o WebMCP Readiness."},
         {"icone": "lupa", "titulo": "Perguntas", "sub": "nas IAs, à mão",
@@ -40,13 +40,13 @@
       "sub": "Clique em cada etapa.",
       "passos": [
         {"titulo": "Raio-x", "sub": "o que o buscador vê",
-         "texto": ["Rode o auditoria.sh do método ou o auditor do inemaseo-sistemas sobre o site público, com pausa entre páginas.", "Separe o que é importante (página sem texto no HTML, canônico errado) do que é melhoria (título longo)."],
-         "exemplo": {"rot": "No INEMA", "texto": "Em 30/09 o índice de cursos virou \"só busca\" e 310 fichas perderam o único link interno que o servidor entregava. O raio-x do HTML é o que pega esse tipo de erro."}},
+         "texto": ["Rode o auditoria.sh do método ou o auditor do ARCKHÉseo-sistemas sobre o site público, com pausa entre páginas.", "Separe o que é importante (página sem texto no HTML, canônico errado) do que é melhoria (título longo)."],
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "Em 30/09 o índice de cursos virou \"só busca\" e 310 fichas perderam o único link interno que o servidor entregava. O raio-x do HTML é o que pega esse tipo de erro."}},
         {"titulo": "Prontidão", "sub": "nota com pesos públicos",
          "texto": ["A nota só vale se os pesos são públicos: o cliente vê por que perdeu pontos.", "Ela mede preparação, não garante citação. Diga isso no relatório."]},
         {"titulo": "Bateria", "sub": "20 perguntas neutras",
          "texto": ["Monte com o cliente 20 perguntas que o público dele faria, sem citar a marca. Congele como v1: mudar depois quebra a comparação.", "Rode à mão, anote numa planilha. As respostas variam: é uma amostra daquele dia, repetida todo mês."],
-         "exemplo": {"rot": "No INEMA", "texto": "Em 10/07/2026 o INEMA apareceu em 0 de 48 respostas neutras no Claude e 0 de 4 no Gemini. E \"O que é INEMA?\" trouxe 4 de 4 respostas sobre outro órgão com o mesmo nome: colisão de nome."}},
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "Em 10/07/2026 o ARCKHÉ apareceu em 0 de 48 respostas neutras no Claude e 0 de 4 no Gemini. E \"O que é ARCKHÉ?\" trouxe 4 de 4 respostas sobre outro órgão com o mesmo nome: colisão de nome."}},
         {"titulo": "Relatório", "sub": "uma página",
          "texto": ["Três achados com o porquê, a bateria resumida e um próximo passo.", "O ensino detalhado das ferramentas está no curso 7 (Sistemas)."]}
       ]
@@ -57,9 +57,9 @@
       "sub": "Ferramentas abertas (MIT). Troque o que está entre < > pelo seu. Só leitura, em site público.",
       "blocos": [
         {"rot": "Terminal · raio-x do método (bash)", "icone": "terminal",
-         "conteudo": "git clone https://github.com/inematds/inemaseo-metodo && cd inemaseo-metodo\ntools/auditoria.sh https://www.<site-do-cliente.com> /<pagina-1>/ /<pagina-2>/"},
+         "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-metodo && cd ARCKHÉseo-metodo\ntools/auditoria.sh https://www.<site-do-cliente.com> /<pagina-1>/ /<pagina-2>/"},
         {"rot": "Terminal · auditor e nota de prontidão (Python 3.10+)", "icone": "terminal",
-         "conteudo": "git clone https://github.com/inematds/inemaseo-sistemas && cd inemaseo-sistemas\npython3 ferramentas/auditor/auditor.py https://<site-do-cliente.com> --max 50\npython3 ferramentas/agente-ready/agente-ready.py https://<site-do-cliente.com>"},
+         "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-sistemas && cd ARCKHÉseo-sistemas\npython3 ferramentas/auditor/auditor.py https://<site-do-cliente.com> --max 50\npython3 ferramentas/agente-ready/agente-ready.py https://<site-do-cliente.com>"},
         {"rot": "Planilha da bateria (CSV)", "icone": "arquivo",
          "conteudo": "data,assistente,pergunta,execucao,cliente_citado(sim/nao/parcial),concorrentes_citados,fontes_citadas,erros_factuais\n<AAAA-MM-DD>,<assistente>,<pergunta neutra 01>,1,,,,"},
         {"rot": "Diagnóstico de uma página", "icone": "caneta",
@@ -68,9 +68,9 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Auditor no inema.club (19/10/2026)", "html": "<table><tr><th>prioridade</th><th>achado</th><th>páginas</th></tr><tr><td>importante</td><td>Pouco texto no HTML entregue (menos de 80 palavras)</td><td>2</td></tr><tr><td>melhoria</td><td>Título fora de 15–65 caracteres</td><td>28</td></tr><tr><td>melhoria</td><td>Organization/Person/WebSite sem @id</td><td>1</td></tr></table><p>Rastreio de 50 páginas, só GET, pausa de 1 s. As linhas \"info\" (por exemplo, marcação de FAQ, cujo rich result o Google deixou de mostrar em 07/05/2026) ficam fora do relatório ao cliente.</p>"},
-          {"rot": "Prontidão no inema.club (19/10/2026)", "html": "<table><tr><th>critério</th><th>peso</th><th>resultado</th></tr><tr><td>robôs de busca liberados</td><td>12</td><td>ok</td></tr><tr><td>CDN não barra robôs</td><td>12</td><td>ok</td></tr><tr><td>texto sem JavaScript</td><td>10</td><td>ok</td></tr><tr><td>autoria</td><td>5</td><td>parcial</td></tr><tr><td>datas</td><td>5</td><td>parcial</td></tr><tr><td>página sobre/contato</td><td>2</td><td>falha</td></tr></table><p>Nota 93 de 100 (pesos.json v1.0.0). Exemplos reais em inemaseo-sistemas/exemplos.</p>"},
-          {"rot": "Como ler", "html": "<ul><li>Achado importante vai para o topo do relatório; melhoria vai numa linha.</li><li>Nota alta não quer dizer citação: o mesmo INEMA tinha 0 de 52 medições neutras nas IAs em julho.</li><li>Os 3 achados do relatório são os que mudam o que o buscador vê.</li></ul>"}
+          {"rot": "Auditor no ARCKHÉ AI (19/10/2026)", "html": "<table><tr><th>prioridade</th><th>achado</th><th>páginas</th></tr><tr><td>importante</td><td>Pouco texto no HTML entregue (menos de 80 palavras)</td><td>2</td></tr><tr><td>melhoria</td><td>Título fora de 15–65 caracteres</td><td>28</td></tr><tr><td>melhoria</td><td>Organization/Person/WebSite sem @id</td><td>1</td></tr></table><p>Rastreio de 50 páginas, só GET, pausa de 1 s. As linhas \"info\" (por exemplo, marcação de FAQ, cujo rich result o Google deixou de mostrar em 07/05/2026) ficam fora do relatório ao cliente.</p>"},
+          {"rot": "Prontidão no ARCKHÉ AI (19/10/2026)", "html": "<table><tr><th>critério</th><th>peso</th><th>resultado</th></tr><tr><td>robôs de busca liberados</td><td>12</td><td>ok</td></tr><tr><td>CDN não barra robôs</td><td>12</td><td>ok</td></tr><tr><td>texto sem JavaScript</td><td>10</td><td>ok</td></tr><tr><td>autoria</td><td>5</td><td>parcial</td></tr><tr><td>datas</td><td>5</td><td>parcial</td></tr><tr><td>página sobre/contato</td><td>2</td><td>falha</td></tr></table><p>Nota 93 de 100 (pesos.json v1.0.0). Exemplos reais em ARCKHÉseo-sistemas/exemplos.</p>"},
+          {"rot": "Como ler", "html": "<ul><li>Achado importante vai para o topo do relatório; melhoria vai numa linha.</li><li>Nota alta não quer dizer citação: o mesmo ARCKHÉ tinha 0 de 52 medições neutras nas IAs em julho.</li><li>Os 3 achados do relatório são os que mudam o que o buscador vê.</li></ul>"}
         ]
       }
     },
@@ -108,7 +108,7 @@
             {"t": "Sim, a ferramenta X dá a sua nota oficial de IA.", "vai": "fim-nota", "nota": 0, "comenta": "Não existe nota oficial de IA de ferramenta. O Google avisa que métricas \"internas\" desse tipo não existem do lado dele."}
           ]},
         "fim-promessa": {"fim": true, "titulo": "Contrato frágil", "texto": "Ela assinou pela promessa. No mês 3, sem primeiro lugar, ela cancela e conta para outras clínicas."},
-        "fim-pacote": {"fim": true, "titulo": "Risco para o site dela", "texto": "50 artigos por mês sem dado próprio é o padrão que o Google trata como conteúdo escalado. O caso das 283 fichas finas do INEMA mostra: lote de páginas rasas não indexa."},
+        "fim-pacote": {"fim": true, "titulo": "Risco para o site dela", "texto": "50 artigos por mês sem dado próprio é o padrão que o Google trata como conteúdo escalado. O caso das 283 fichas finas do ARCKHÉ mostra: lote de páginas rasas não indexa."},
         "fim-senha": {"fim": true, "titulo": "Responsabilidade demais", "texto": "Com a senha dela no WhatsApp, qualquer problema no site passa a ser seu. Acesso é por escrito, no mínimo necessário."},
         "fim-ferramenta": {"fim": true, "titulo": "Ninguém leu", "texto": "O PDF de 80 páginas ficou na caixa de entrada. Sem os 3 achados à vista, não houve próximo passo."},
         "fim-nota": {"fim": true, "titulo": "Número sem lastro", "texto": "Ela vai cobrar a \"nota oficial\" todo mês. Quando a ferramenta mudar o cálculo, a sua credibilidade cai junto."},
@@ -139,7 +139,7 @@
          "certa": 1, "explica": "Pergunta neutra mostra se o cliente aparece para quem ainda não o conhece, que é o que importa.", "ref": "passos", "cert": true},
         {"p": "A nota de prontidão do site deu 93 de 100. O que você diz ao cliente?",
          "opcoes": ["Que ele vai ser citado pelas IAs.", "Que o site está bem preparado; citação é outra medida, feita pela bateria e pelos painéis oficiais.", "Que a nota é oficial do Google.", "Que não precisa fazer mais nada."],
-         "certa": 1, "explica": "Prontidão é preparação. O próprio INEMA, com boa preparação, apareceu em 0 de 52 medições neutras em julho.", "ref": "codigo"},
+         "certa": 1, "explica": "Prontidão é preparação. O próprio ARCKHÉ, com boa preparação, apareceu em 0 de 52 medições neutras em julho.", "ref": "codigo"},
         {"p": "Para o diagnóstico, de que acesso você precisa?",
          "opcoes": ["Senha da hospedagem.", "Nenhum: raio-x, prontidão e bateria usam só páginas públicas. O número sem marca exige acesso de leitura no painel, autorizado por escrito.", "Senha do e-mail do cliente.", "Acesso de administrador ao site."],
          "certa": 1, "explica": "Comece só de leitura. Acesso entra depois, no mínimo necessário e por escrito.", "ref": "simconversa"},
@@ -161,11 +161,11 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "inemaseo-sistemas: auditor e agente-ready", "href": "https://github.com/inematds/inemaseo-sistemas", "icone": "terminal"},
-        {"t": "Curso 7 · Sistemas: aprofundar nas ferramentas", "href": "https://inematds.github.io/formacao-inemaseo-sistemas-v72/", "icone": "camadas"},
-        {"t": "auditoria.sh do método", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/auditoria.sh", "icone": "terminal"},
-        {"t": "Vendas com IA: a call de descoberta", "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/aulas/call-descoberta/", "icone": "chat"},
-        {"t": "WebMCP Readiness", "href": "https://webmcp.inema.pro/", "icone": "robo"}
+        {"t": "ARCKHÉseo-sistemas: auditor e agente-ready", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas", "icone": "terminal"},
+        {"t": "Curso 7 · Sistemas: aprofundar nas ferramentas", "href": "https://linnoff88-dev.github.io/ "icone": "camadas"},
+        {"t": "auditoria.sh do método", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/auditoria.sh", "icone": "terminal"},
+        {"t": "Vendas com IA: a call de descoberta", "href": "https://linnoff88-dev.github.io/ "icone": "chat"},
+        {"t": "WebMCP Readiness", "href": "https://webmcp.ARCKHÉ.pro/", "icone": "robo"}
       ]
     }
   ]

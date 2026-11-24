@@ -46,9 +46,9 @@
          "texto": ["Chaves e credenciais ficam em variáveis de ambiente, nunca no repositório nem no prompt.", "Acesso aos painéis do cliente é o de leitura, autorizado por escrito (aula 7)."]},
         {"titulo": "Portões", "sub": "nunca pulados",
          "texto": ["Se o cliente não tem tempo de revisar, a cadência cai. O portão não é pulado.", "Ajuda: o agente entrega o resumo do que mudou e as 3 coisas para o cliente confirmar."],
-         "exemplo": {"rot": "No INEMA", "texto": "Um script de links pegou o nome errado de um curso numa subpasta. Foi pego no piloto, antes do push. É para isso que serve rodar pequeno e conferir antes."}},
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "Um script de links pegou o nome errado de um curso numa subpasta. Foi pego no piloto, antes do push. É para isso que serve rodar pequeno e conferir antes."}},
         {"titulo": "Conferir o agente", "sub": "número que não fecha",
-         "texto": ["Todo número que o agente produz passa por uma conta de conferência: a parte não pode ser maior que o todo.", "No INEMA, um export somou as impressões de marca por consulta e página e deu mais que o total da semana. A correção foi somar só por consulta."]}
+         "texto": ["Todo número que o agente produz passa por uma conta de conferência: a parte não pode ser maior que o todo.", "No ARCKHÉ, um export somou as impressões de marca por consulta e página e deu mais que o total da semana. A correção foi somar só por consulta."]}
       ]
     },
     {
@@ -58,7 +58,7 @@
       "blocos": [
         {"rot": "Terminal · criar a pasta do cliente", "icone": "terminal",
          "conteudo": "mkdir -p <cliente>/{docs,briefings,reports,scripts,data/gsc}\ncd <cliente> && git init -b main\nprintf '.env\\n*.key\\ncredenciais/\\n' > .gitignore\ntouch .env AGENTS.md data/urls-chave.txt data/consultas-alvo.txt"},
-        {"rot": "Estrutura (modelo do repo de trabalho do INEMA)", "icone": "pasta",
+        {"rot": "Estrutura (modelo do repo de trabalho do ARCKHÉ)", "icone": "pasta",
          "conteudo": "docs/        diagnóstico, plano, proposta, autorização\nbriefings/   <slug>.md, um por página\ndata/gsc/    export semanal (só acrescenta)\nreports/     semana-<data>.md, mensal-<mês>.md\nscripts/     raio-x, export, relatório\nAGENTS.md    regras do cliente para o agente\n.env         segredo (fora do git)"},
         {"rot": "AGENTS.md · regras do cliente", "icone": "arquivo",
          "conteudo": "# Regras — <cliente>\n- Tom: <como o cliente fala>. Público: <quem>.\n- Todo número ou citação vem de fonte do cliente; sem fonte, marcar PENDENTE e não publicar.\n- Antes de publicar: checklist de qualidade completo.\n- Portão 1: <nome> aprova a lista do mês. Portão 2: <nome> aprova cada página.\n- Nunca: publicar sem aprovação, lote grande de uma vez, página por variação de palavra-chave.\n- Modelo pela assinatura. API paga só com autorização escrita para a finalidade.\n- Segredo só no .env. Nunca imprimir chave em log ou relatório."}
@@ -89,7 +89,7 @@
          "opcoes": ["No AGENTS.md, para o agente achar.", "Num .env fora do git, carregada na hora de rodar.", "No relatório mensal.", "No prompt do agente."],
          "certa": 1, "explica": "Segredo no repositório ou no prompt vaza em commit, log ou relatório. O .gitignore garante que ele não sobe.", "ref": "codigo"},
         {"p": "O agente diz que as impressões de marca da semana foram maiores que o total. O que isso indica?",
-         "opcoes": ["Que o site cresceu muito.", "Erro de soma: a parte não pode ser maior que o todo. No INEMA, a soma por consulta e página contou a mesma impressão mais de uma vez.", "Que o painel do Google errou.", "Nada, é normal."],
+         "opcoes": ["Que o site cresceu muito.", "Erro de soma: a parte não pode ser maior que o todo. No ARCKHÉ, a soma por consulta e página contou a mesma impressão mais de uma vez.", "Que o painel do Google errou.", "Nada, é normal."],
          "certa": 1, "explica": "Conta de conferência simples pega erro do agente antes de ele ir para o relatório do cliente.", "ref": "passos"},
         {"p": "Em que ponto o agente pode trabalhar sem aprovação humana?",
          "opcoes": ["Em publicar páginas.", "Em pesquisar, rascunhar e montar relatório; publicar e escolher o que fazer passam pelos portões.", "Em tudo, se for um bom agente.", "Em nada."],
@@ -109,9 +109,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "Método inemaSEO: a máquina com agentes", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md", "icone": "robo"},
-        {"t": "Checklist de qualidade (16 itens)", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md", "icone": "check"},
-        {"t": "Curso 5 · Com Agentes", "href": "https://inematds.github.io/formacao-inemaseo-agentes-v72/", "icone": "terminal"}
+        {"t": "Método ARCKHÉSEO: a máquina com agentes", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "robo"},
+        {"t": "Checklist de qualidade (16 itens)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md", "icone": "check"},
+        {"t": "Curso 5 · Com Agentes", "href": "https://linnoff88-dev.github.io/ "icone": "terminal"}
       ]
     }
   ]

@@ -92,7 +92,7 @@
             "\"Humanizing\" the text to pass an AI detector doesn't fix it: it aims at the wrong metric (Google evaluates usefulness) and it is paraphrasing at scale with intent to deceive."
           ],
           "exemplo": {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "texto": "283 entries of 170 to 240 words, two of them with 47% of their vocabulary in common, published in a single commit. Of the 6 in the sample, 5 were never crawled."
           }
         },
@@ -245,17 +245,17 @@
         },
         {
           "t": "Quality checklist (16 items)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md",
           "icone": "check"
         },
         {
           "t": "Course 2 · Content: what not to do",
-          "href": "https://inematds.github.io/formacao-inemaseo-conteudo-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "caneta"
         },
         {
           "t": "Professional 2030: common base (risks, LGPD, and scope)",
-          "href": "https://eventos.inema.pro/prof2030/",
+          "href": "https://eventos.ARCKHÉ.pro/prof2030/",
           "icone": "usuario"
         }
       ]

@@ -40,7 +40,7 @@
       "passos": [
         {"titulo": "Conteúdo escalado", "sub": "volume sem valor",
          "texto": ["Cinco variações por palavra-chave, mil artigos, agentes publicando 24 horas: é o que o Google chama de scaled content abuse.", "\"Humanizar\" o texto para passar em detector de IA não resolve: mira a métrica errada (o Google avalia utilidade) e é paráfrase em escala com intenção de enganar."],
-         "exemplo": {"rot": "No INEMA", "texto": "283 fichas de 170 a 240 palavras, duas delas com 47% do vocabulário em comum, publicadas num commit só. Das 6 da amostra, 5 nunca foram rastreadas."}},
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "283 fichas de 170 a 240 palavras, duas delas com 47% do vocabulário em comum, publicadas num commit só. Das 6 da amostra, 5 nunca foram rastreadas."}},
         {"titulo": "Links combinados", "sub": "rede de sites",
          "texto": ["Rede de sites próprios com links cruzados e \"20 backlinks por post\" é esquema de links. Uma ação manual pode derrubar todos os domínios de uma vez.", "No lugar: links contextuais, 1 ou 2 por página, e menções reais (parceiro, evento, projeto aberto)."]},
         {"titulo": "Atalhos", "sub": "domínio alheio e indexação",
@@ -106,9 +106,9 @@
       "titulo": "Para ir além",
       "links": [
         {"t": "Políticas de spam do Google (inglês)", "href": "https://developers.google.com/search/docs/essentials/spam-policies", "icone": "escudo"},
-        {"t": "Checklist de qualidade (16 itens)", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md", "icone": "check"},
-        {"t": "Curso 2 · Conteúdo: o que não fazer", "href": "https://inematds.github.io/formacao-inemaseo-conteudo-v72/", "icone": "caneta"},
-        {"t": "Profissional 2030: base comum (riscos, LGPD e escopo)", "href": "https://eventos.inema.pro/prof2030/", "icone": "usuario"}
+        {"t": "Checklist de qualidade (16 itens)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md", "icone": "check"},
+        {"t": "Curso 2 · Conteúdo: o que não fazer", "href": "https://linnoff88-dev.github.io/ "icone": "caneta"},
+        {"t": "Profissional 2030: base comum (riscos, LGPD e escopo)", "href": "https://eventos.ARCKHÉ.pro/prof2030/", "icone": "usuario"}
       ]
     }
   ]

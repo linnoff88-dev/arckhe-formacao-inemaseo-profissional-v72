@@ -120,14 +120,14 @@
         },
         {
           "titulo": "El total engaña",
-          "sub": "el caso de INEMA",
+          "sub": "el caso de ARCKHÉ",
           "texto": [
-            "En la línea de base de 28 días de inema.club, 639 de los 647 clics de las 25 búsquedas principales eran de marca. Las búsquedas genéricas sumaron 8 clics.",
+            "En la línea de base de 28 días de ARCKHÉ AI, 639 de los 647 clics de las 25 búsquedas principales eran de marca. Las búsquedas genéricas sumaron 8 clics.",
             "Si le muestras al cliente solo el total, le estás mostrando gente que ya lo conocía."
           ],
           "exemplo": {
-            "rot": "En INEMA",
-            "texto": "En cuatro semanas, las impresiones sin marca de inema.club pasaron de 8 a 157. Los clics sin marca siguieron en 0. Ese es el tipo de número honesto que tú reportas."
+            "rot": "En ARCKHÉ",
+            "texto": "En cuatro semanas, las impresiones sin marca de ARCKHÉ AI pasaron de 8 a 157. Los clics sin marca siguieron en 0. Ese es el tipo de número honesto que tú reportas."
           }
         },
         {
@@ -160,8 +160,8 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "Línea de base de INEMA",
-            "html": "<table><tr><th>inema.club, 28 días</th><th>clics</th><th>de marca</th></tr><tr><td>total del sitio</td><td>787</td><td>—</td></tr><tr><td>25 búsquedas principales</td><td>647</td><td>639</td></tr></table><p>Búsquedas genéricas: 8 clics y 72 impresiones. Línea de base del 23/09/2026 (25/08–21/09).</p>"
+            "rot": "Línea de base de ARCKHÉ",
+            "html": "<table><tr><th>ARCKHÉ AI, 28 días</th><th>clics</th><th>de marca</th></tr><tr><td>total del sitio</td><td>787</td><td>—</td></tr><tr><td>25 búsquedas principales</td><td>647</td><td>639</td></tr></table><p>Búsquedas genéricas: 8 clics y 72 impresiones. Línea de base del 23/09/2026 (25/08–21/09).</p>"
           },
           {
             "rot": "Cómo contárselo al cliente",
@@ -210,7 +210,7 @@
           "cert": true
         },
         {
-          "p": "En la línea de base de inema.club, 639 de los 647 clics de las principales búsquedas eran de marca. ¿Qué enseña eso para el informe al cliente?",
+          "p": "En la línea de base de ARCKHÉ AI, 639 de los 647 clics de las principales búsquedas eran de marca. ¿Qué enseña eso para el informe al cliente?",
           "opcoes": [
             "Que el SEO no funciona.",
             "Que el total muestra a quien ya conocía la marca; el trabajo se demuestra en lo sin marca.",
@@ -257,7 +257,7 @@
         },
         {
           "t": "Demuestra con lo sin marca",
-          "texto": "El total muestra quién ya conocía al cliente. En inema.club, 639 de los 647 clics de las principales búsquedas eran de marca."
+          "texto": "El total muestra quién ya conocía al cliente. En ARCKHÉ AI, 639 de los 647 clics de las principales búsquedas eran de marca."
         },
         {
           "t": "La vara de 2026",
@@ -271,12 +271,12 @@
       "links": [
         {
           "t": "Profesional 2030: las 4 formaciones",
-          "href": "https://eventos.inema.pro/prof2030/",
+          "href": "https://eventos.ARCKHÉ.pro/prof2030/",
           "icone": "usuario"
         },
         {
           "t": "Ventas con IA: posicionamiento de consultor",
-          "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/aulas/posicionamento/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "alvo"
         },
         {
@@ -285,8 +285,8 @@
           "icone": "lupa"
         },
         {
-          "t": "Método inemaSEO",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "Método ARCKHÉSEO",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         }
       ]

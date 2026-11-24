@@ -98,7 +98,7 @@
             "Ayuda: el agente entrega el resumen de lo que cambió y las 3 cosas para que el cliente confirme."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "Un script de enlaces tomó el nombre equivocado de un curso en una subcarpeta. Se detectó en el piloto, antes del push. Para eso sirve correr en pequeño y revisar antes."
           }
         },
@@ -107,7 +107,7 @@
           "sub": "número que no cuadra",
           "texto": [
             "Todo número que produce el agente pasa por una cuenta de verificación: la parte no puede ser mayor que el todo.",
-            "En INEMA, un export sumó las impresiones de marca por consulta y página y dio más que el total de la semana. La corrección fue sumar solo por consulta."
+            "En ARCKHÉ, un export sumó las impresiones de marca por consulta y página y dio más que el total de la semana. La corrección fue sumar solo por consulta."
           ]
         }
       ]
@@ -123,7 +123,7 @@
           "conteudo": "mkdir -p <cliente>/{docs,briefings,reports,scripts,data/gsc}\ncd <cliente> && git init -b main\nprintf '.env\\n*.key\\ncredenciais/\\n' > .gitignore\ntouch .env AGENTS.md data/urls-chave.txt data/consultas-alvo.txt"
         },
         {
-          "rot": "Estructura (modelo del repo de trabajo de INEMA)",
+          "rot": "Estructura (modelo del repo de trabajo de ARCKHÉ)",
           "icone": "pasta",
           "conteudo": "docs/        diagnóstico, plano, propuesta, autorización\nbriefings/   <slug>.md, uno por página\ndata/gsc/    export semanal (solo se agrega)\nreports/     semana-<data>.md, mensal-<mês>.md\nscripts/     radiografía, export, informe\nAGENTS.md    reglas del cliente para el agente\n.env         secreto (fuera de git)"
         },
@@ -189,7 +189,7 @@
           "p": "El agente dice que las impresiones de marca de la semana fueron mayores que el total. ¿Qué indica eso?",
           "opcoes": [
             "Que el sitio creció mucho.",
-            "Error de suma: la parte no puede ser mayor que el todo. En INEMA, la suma por consulta y página contó la misma impresión más de una vez.",
+            "Error de suma: la parte no puede ser mayor que el todo. En ARCKHÉ, la suma por consulta y página contó la misma impresión más de una vez.",
             "Que el panel de Google se equivocó.",
             "Nada, es normal."
           ],
@@ -234,18 +234,18 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "Método inemaSEO: la máquina con agentes",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "Método ARCKHÉSEO: la máquina con agentes",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "robo"
         },
         {
           "t": "Lista de verificación de calidad (16 ítems)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md",
           "icone": "check"
         },
         {
           "t": "Curso 5 · Con Agentes",
-          "href": "https://inematds.github.io/formacao-inemaseo-agentes-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "terminal"
         }
       ]

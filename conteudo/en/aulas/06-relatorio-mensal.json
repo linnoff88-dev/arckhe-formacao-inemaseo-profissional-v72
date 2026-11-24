@@ -96,8 +96,8 @@
             "Non-branded impressions going up with clicks at zero means new people are seeing the site and aren't clicking yet: the next step is position and title."
           ],
           "exemplo": {
-            "rot": "At INEMA",
-            "texto": "Week of Oct 5 to 11: inema.club with 0 non-branded clicks and 157 non-branded impressions (it was 8 four weeks earlier). On inema.pro, the first 2 non-branded clicks, from searches like \"curso jev\"."
+            "rot": "At ARCKHÉ",
+            "texto": "Week of Oct 5 to 11: ARCKHÉ AI with 0 non-branded clicks and 157 non-branded impressions (it was 8 four weeks earlier). On ARCKHÉ.pro, the first 2 non-branded clicks, from searches like \"curso jev\"."
           }
         },
         {
@@ -113,7 +113,7 @@
     {
       "tipo": "codigo",
       "titulo": "The weekly report and the monthly template",
-      "sub": "The script comes from INEMA's working repository (not public); the format works as a template. Without credentials, the same table can be made by hand from the dashboard.",
+      "sub": "The script comes from ARCKHÉ's working repository (not public); the format works as a template. Without credentials, the same table can be made by hand from the dashboard.",
       "blocos": [
         {
           "rot": "Terminal · this week's report using what's already in data/gsc",
@@ -131,7 +131,7 @@
         "abas": [
           {
             "rot": "Week ending 10/11/2026 (totals)",
-            "html": "<table><tr><th>site</th><th>total</th><th>branded</th><th>non-branded</th><th>non-branded queries</th></tr><tr><td>inema.club</td><td>114/702</td><td>87/238</td><td>0/157</td><td>51</td></tr><tr><td>inema.pro</td><td>11/761</td><td>5/116</td><td>2/293</td><td>52</td></tr></table><p>Clicks/impressions. Generated on 10/13/2026 by gsc_relatorio_semanal.py.</p>"
+            "html": "<table><tr><th>site</th><th>total</th><th>branded</th><th>non-branded</th><th>non-branded queries</th></tr><tr><td>ARCKHÉ AI</td><td>114/702</td><td>87/238</td><td>0/157</td><td>51</td></tr><tr><td>ARCKHÉ.pro</td><td>11/761</td><td>5/116</td><td>2/293</td><td>52</td></tr></table><p>Clicks/impressions. Generated on 10/13/2026 by gsc_relatorio_semanal.py.</p>"
           },
           {
             "rot": "Indexing (inspection on 10/13)",
@@ -180,7 +180,7 @@
             "You say Google is having a problem."
           ],
           "certa": 1,
-          "explica": "That was the case for inema.club: 8 → 157 non-branded impressions in four weeks, with 0 clicks. Stating the zero with context keeps trust.",
+          "explica": "That was the case for ARCKHÉ AI: 8 → 157 non-branded impressions in four weeks, with 0 clicks. Stating the zero with context keeps trust.",
           "ref": "passos",
           "cert": true
         },
@@ -217,7 +217,7 @@
             "That it's the client's fault."
           ],
           "certa": 1,
-          "explica": "At INEMA, 13 of 14 pages were indexed; the one missing was /eventos/. A status with an action attached is useful information, not an alarm.",
+          "explica": "At ARCKHÉ, 13 of 14 pages were indexed; the one missing was /eventos/. A status with an action attached is useful information, not an alarm.",
           "ref": "codigo"
         }
       ]
@@ -246,22 +246,22 @@
       "links": [
         {
           "t": "Course 3 · Measurement and Routine: the weekly export",
-          "href": "https://inematds.github.io/formacao-inemaseo-medicao-v72/aulas/export-semanal/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "grafico"
         },
         {
           "t": "gsc_semanal.py (open)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/gsc_semanal.py",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/gsc_semanal.py",
           "icone": "terminal"
         },
         {
           "t": "Course 7 · Systems: history beyond the 16 months",
-          "href": "https://inematds.github.io/formacao-inemaseo-sistemas-v72/aulas/gsc-historico/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         },
         {
           "t": "Selling with AI: communication and the one-page report",
-          "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/aulas/comunicacao/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "chat"
         }
       ]

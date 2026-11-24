@@ -45,7 +45,7 @@
          "texto": ["Sem marca do mês e do mês anterior, URLs indexadas, as 3 consultas-alvo que mais se mexeram, o resultado da bateria.", "Cada linha com o número e a comparação. Sem adjetivo."]},
         {"titulo": "O zero", "sub": "dito como é",
          "texto": ["Zero não se esconde num gráfico de total. Diga o número, o que ele quer dizer e o que vem antes do clique.", "Impressão sem marca subindo e clique em zero quer dizer que gente nova está vendo o site e ainda não está clicando: o próximo passo é posição e título."],
-         "exemplo": {"rot": "No INEMA", "texto": "Semana de 05 a 11/10: inema.club com 0 clique sem marca e 157 impressões sem marca (eram 8 quatro semanas antes). No inema.pro, os 2 primeiros cliques sem marca, de buscas como \"curso jev\"."}},
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "Semana de 05 a 11/10: ARCKHÉ AI com 0 clique sem marca e 157 impressões sem marca (eram 8 quatro semanas antes). No ARCKHÉ.pro, os 2 primeiros cliques sem marca, de buscas como \"curso jev\"."}},
         {"titulo": "Uma decisão", "sub": "pedida ao cliente",
          "texto": ["Termine com uma pergunta que só ele responde: aprovar a pauta, revisar 3 páginas, decidir o idioma.", "Relatório que não pede nada vira arquivo que ninguém abre."]}
       ]
@@ -53,7 +53,7 @@
     {
       "tipo": "codigo",
       "titulo": "O relatório semanal e o modelo do mensal",
-      "sub": "O script é do repositório de trabalho do INEMA (não público); o formato serve de modelo. Sem credencial, a mesma tabela sai à mão do painel.",
+      "sub": "O script é do repositório de trabalho do ARCKHÉ (não público); o formato serve de modelo. Sem credencial, a mesma tabela sai à mão do painel.",
       "blocos": [
         {"rot": "Terminal · relatório da semana com o que já está em data/gsc", "icone": "terminal",
          "conteudo": "# entradas: data/urls-chave.txt e data/consultas-alvo.txt (uma por linha)\npython3 scripts/gsc_relatorio_semanal.py --sem-api\n# saídas: data/gsc/indexacao.csv (só acrescenta) e reports/semana-<fim>.md"},
@@ -63,7 +63,7 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Semana até 11/10/2026 (totais)", "html": "<table><tr><th>site</th><th>total</th><th>marca</th><th>sem marca</th><th>consultas sem marca</th></tr><tr><td>inema.club</td><td>114/702</td><td>87/238</td><td>0/157</td><td>51</td></tr><tr><td>inema.pro</td><td>11/761</td><td>5/116</td><td>2/293</td><td>52</td></tr></table><p>Cliques/impressões. Gerado em 13/10/2026 por gsc_relatorio_semanal.py.</p>"},
+          {"rot": "Semana até 11/10/2026 (totais)", "html": "<table><tr><th>site</th><th>total</th><th>marca</th><th>sem marca</th><th>consultas sem marca</th></tr><tr><td>ARCKHÉ AI</td><td>114/702</td><td>87/238</td><td>0/157</td><td>51</td></tr><tr><td>ARCKHÉ.pro</td><td>11/761</td><td>5/116</td><td>2/293</td><td>52</td></tr></table><p>Cliques/impressões. Gerado em 13/10/2026 por gsc_relatorio_semanal.py.</p>"},
           {"rot": "Indexação (inspeção de 13/10)", "html": "<table><tr><th>URL</th><th>estado</th></tr><tr><td>/</td><td>indexada</td></tr><tr><td>/aprender-inteligencia-artificial/</td><td>indexada</td></tr><tr><td>/es/aprender-inteligencia-artificial/</td><td>indexada</td></tr><tr><td>/eventos/</td><td>desconhecida pro Google</td></tr></table><p>Indexadas: 13 de 14.</p>"},
           {"rot": "Consultas sem marca (amostra)", "html": "<table><tr><th>consulta</th><th>posição</th><th>impr.</th><th>cliques</th></tr><tr><td>aprender ia</td><td>34,5</td><td>10</td><td>0</td></tr><tr><td>aprender inteligencia artificial desde cero</td><td>33,2</td><td>10</td><td>0</td></tr><tr><td>cómo aprender ia</td><td>46,1</td><td>8</td><td>0</td></tr></table><p>Todas da página em espanhol, indexada em 03/10.</p>"}
         ]
@@ -89,7 +89,7 @@
       "perguntas": [
         {"p": "O site do cliente teve 0 clique sem marca no mês, mas as impressões sem marca subiram. Como você conta?",
          "opcoes": ["Mostra só o total de cliques, que subiu.", "Diz o zero, explica que gente nova começou a ver o site e que o próximo passo é posição e título.", "Não manda o relatório este mês.", "Diz que o Google está com problema."],
-         "certa": 1, "explica": "Foi o caso do inema.club: 8 → 157 impressões sem marca em quatro semanas, com 0 clique. O zero dito com o contexto mantém a confiança.", "ref": "passos", "cert": true},
+         "certa": 1, "explica": "Foi o caso do ARCKHÉ AI: 8 → 157 impressões sem marca em quatro semanas, com 0 clique. O zero dito com o contexto mantém a confiança.", "ref": "passos", "cert": true},
         {"p": "Para que serve a decisão pedida no fim do relatório?",
          "opcoes": ["Para enfeitar.", "Para que o cliente aja sobre o que só ele pode decidir; relatório sem pedido vira arquivo sem leitura.", "Para cobrar mais.", "Para mudar o escopo todo mês."],
          "certa": 1, "explica": "O relatório é uma conversa mensal. A decisão mantém o cliente participando e destrava os portões.", "ref": "diagrama"},
@@ -98,7 +98,7 @@
          "certa": 1, "explica": "Semanas gravadas no mesmo formato dão a série. O mensal só lê e resume.", "ref": "passos"},
         {"p": "Uma URL-chave aparece como \"desconhecida pro Google\". O que vai no relatório?",
          "opcoes": ["Nada, para não preocupar.", "A URL, o estado e a ação: links internos para ela, sitemap e pedido de indexação.", "Que o site foi penalizado.", "Que é culpa do cliente."],
-         "certa": 1, "explica": "No INEMA, 13 de 14 indexadas; a que faltava era /eventos/. Estado com ação é informação útil, não alarme.", "ref": "codigo"}
+         "certa": 1, "explica": "No ARCKHÉ, 13 de 14 indexadas; a que faltava era /eventos/. Estado com ação é informação útil, não alarme.", "ref": "codigo"}
       ]
     },
     {
@@ -114,10 +114,10 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "Curso 3 · Medição e Rotina: o export semanal", "href": "https://inematds.github.io/formacao-inemaseo-medicao-v72/aulas/export-semanal/", "icone": "grafico"},
-        {"t": "gsc_semanal.py (aberto)", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/gsc_semanal.py", "icone": "terminal"},
-        {"t": "Curso 7 · Sistemas: histórico além dos 16 meses", "href": "https://inematds.github.io/formacao-inemaseo-sistemas-v72/aulas/gsc-historico/", "icone": "camadas"},
-        {"t": "Vendas com IA: comunicação e relatório de uma página", "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/aulas/comunicacao/", "icone": "chat"}
+        {"t": "Curso 3 · Medição e Rotina: o export semanal", "href": "https://linnoff88-dev.github.io/ "icone": "grafico"},
+        {"t": "gsc_semanal.py (aberto)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/gsc_semanal.py", "icone": "terminal"},
+        {"t": "Curso 7 · Sistemas: histórico além dos 16 meses", "href": "https://linnoff88-dev.github.io/ "icone": "camadas"},
+        {"t": "Vendas com IA: comunicação e relatório de uma página", "href": "https://linnoff88-dev.github.io/ "icone": "chat"}
       ]
     }
   ]

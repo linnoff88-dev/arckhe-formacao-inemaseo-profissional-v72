@@ -44,7 +44,7 @@
           "icone": "terminal",
           "titulo": "Radiografía",
           "sub": "HTML entregado",
-          "detalhe": "Lo que el servidor entrega a quien no ejecuta JavaScript: título, canónico, hreflang, robots, sitemap, JSON-LD, enlaces internos. auditoria.sh del método o el auditor de inemaseo-sistemas. Solo lectura, páginas públicas."
+          "detalhe": "Lo que el servidor entrega a quien no ejecuta JavaScript: título, canónico, hreflang, robots, sitemap, JSON-LD, enlaces internos. auditoria.sh del método o el auditor de ARCKHÉseo-sistemas. Solo lectura, páginas públicas."
         },
         {
           "icone": "robo",
@@ -77,11 +77,11 @@
           "titulo": "Radiografía",
           "sub": "lo que ve el buscador",
           "texto": [
-            "Ejecuta el auditoria.sh del método o el auditor de inemaseo-sistemas sobre el sitio público, con pausa entre páginas.",
+            "Ejecuta el auditoria.sh del método o el auditor de ARCKHÉseo-sistemas sobre el sitio público, con pausa entre páginas.",
             "Separa lo que es importante (página sin texto en el HTML, canónico incorrecto) de lo que es mejora (título largo)."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "El 30/09 el índice de cursos pasó a ser \"solo búsqueda\" y 310 fichas perdieron el único enlace interno que entregaba el servidor. La radiografía del HTML es lo que detecta este tipo de error."
           }
         },
@@ -101,8 +101,8 @@
             "Ejecútalas a mano y anota en una planilla. Las respuestas varían: es una muestra de ese día, repetida todos los meses."
           ],
           "exemplo": {
-            "rot": "En INEMA",
-            "texto": "El 10/07/2026 INEMA apareció en 0 de 48 respuestas neutras en Claude y en 0 de 4 en Gemini. Y \"¿Qué es INEMA?\" trajo 4 de 4 respuestas sobre otro organismo con el mismo nombre: colisión de nombre."
+            "rot": "En ARCKHÉ",
+            "texto": "El 10/07/2026 ARCKHÉ apareció en 0 de 48 respuestas neutras en Claude y en 0 de 4 en Gemini. Y \"¿Qué es ARCKHÉ?\" trajo 4 de 4 respuestas sobre otro organismo con el mismo nombre: colisión de nombre."
           }
         },
         {
@@ -123,12 +123,12 @@
         {
           "rot": "Terminal · radiografía del método (bash)",
           "icone": "terminal",
-          "conteudo": "git clone https://github.com/inematds/inemaseo-metodo && cd inemaseo-metodo\ntools/auditoria.sh https://www.<sitio-del-cliente.com> /<pagina-1>/ /<pagina-2>/"
+          "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-metodo && cd ARCKHÉseo-metodo\ntools/auditoria.sh https://www.<sitio-del-cliente.com> /<pagina-1>/ /<pagina-2>/"
         },
         {
           "rot": "Terminal · auditor y nota de preparación (Python 3.10+)",
           "icone": "terminal",
-          "conteudo": "git clone https://github.com/inematds/inemaseo-sistemas && cd inemaseo-sistemas\npython3 ferramentas/auditor/auditor.py https://<sitio-del-cliente.com> --max 50\npython3 ferramentas/agente-ready/agente-ready.py https://<sitio-del-cliente.com>"
+          "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-sistemas && cd ARCKHÉseo-sistemas\npython3 ferramentas/auditor/auditor.py https://<sitio-del-cliente.com> --max 50\npython3 ferramentas/agente-ready/agente-ready.py https://<sitio-del-cliente.com>"
         },
         {
           "rot": "Planilla de la batería (CSV)",
@@ -145,16 +145,16 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "Auditor en inema.club (19/10/2026)",
+            "rot": "Auditor en ARCKHÉ AI (19/10/2026)",
             "html": "<table><tr><th>prioridad</th><th>hallazgo</th><th>páginas</th></tr><tr><td>importante</td><td>Poco texto en el HTML entregado (menos de 80 palabras)</td><td>2</td></tr><tr><td>mejora</td><td>Título fuera de 15–65 caracteres</td><td>28</td></tr><tr><td>mejora</td><td>Organization/Person/WebSite sin @id</td><td>1</td></tr></table><p>Rastreo de 50 páginas, solo GET, pausa de 1 s. Las filas \"info\" (por ejemplo, el marcado de FAQ, cuyo rich result Google dejó de mostrar el 07/05/2026) quedan fuera del informe al cliente.</p>"
           },
           {
-            "rot": "Preparación en inema.club (19/10/2026)",
-            "html": "<table><tr><th>criterio</th><th>peso</th><th>resultado</th></tr><tr><td>robots de búsqueda habilitados</td><td>12</td><td>ok</td></tr><tr><td>CDN no bloquea robots</td><td>12</td><td>ok</td></tr><tr><td>texto sin JavaScript</td><td>10</td><td>ok</td></tr><tr><td>autoría</td><td>5</td><td>parcial</td></tr><tr><td>fechas</td><td>5</td><td>parcial</td></tr><tr><td>página sobre/contacto</td><td>2</td><td>falla</td></tr></table><p>Nota 93 de 100 (pesos.json v1.0.0). Ejemplos reales en inemaseo-sistemas/exemplos.</p>"
+            "rot": "Preparación en ARCKHÉ AI (19/10/2026)",
+            "html": "<table><tr><th>criterio</th><th>peso</th><th>resultado</th></tr><tr><td>robots de búsqueda habilitados</td><td>12</td><td>ok</td></tr><tr><td>CDN no bloquea robots</td><td>12</td><td>ok</td></tr><tr><td>texto sin JavaScript</td><td>10</td><td>ok</td></tr><tr><td>autoría</td><td>5</td><td>parcial</td></tr><tr><td>fechas</td><td>5</td><td>parcial</td></tr><tr><td>página sobre/contacto</td><td>2</td><td>falla</td></tr></table><p>Nota 93 de 100 (pesos.json v1.0.0). Ejemplos reales en ARCKHÉseo-sistemas/exemplos.</p>"
           },
           {
             "rot": "Cómo leerlo",
-            "html": "<ul><li>Un hallazgo importante va arriba del informe; una mejora va en una línea.</li><li>Una nota alta no significa citación: el mismo INEMA tenía 0 de 52 mediciones neutras en las IA en julio.</li><li>Los 3 hallazgos del informe son los que cambian lo que ve el buscador.</li></ul>"
+            "html": "<ul><li>Un hallazgo importante va arriba del informe; una mejora va en una línea.</li><li>Una nota alta no significa citación: el mismo ARCKHÉ tenía 0 de 52 mediciones neutras en las IA en julio.</li><li>Los 3 hallazgos del informe son los que cambian lo que ve el buscador.</li></ul>"
           }
         ]
       }
@@ -268,7 +268,7 @@
         "fim-pacote": {
           "fim": true,
           "titulo": "Riesgo para su sitio",
-          "texto": "50 artículos al mes sin datos propios es el patrón que Google trata como contenido a escala. El caso de las 283 fichas delgadas de INEMA lo muestra: un lote de páginas delgadas no se indexa."
+          "texto": "50 artículos al mes sin datos propios es el patrón que Google trata como contenido a escala. El caso de las 283 fichas delgadas de ARCKHÉ lo muestra: un lote de páginas delgadas no se indexa."
         },
         "fim-senha": {
           "fim": true,
@@ -341,7 +341,7 @@
             "Que no necesita hacer nada más."
           ],
           "certa": 1,
-          "explica": "Preparación es preparación. El propio INEMA, con buena preparación, apareció en 0 de 52 mediciones neutras en julio.",
+          "explica": "Preparación es preparación. El propio ARCKHÉ, con buena preparación, apareció en 0 de 52 mediciones neutras en julio.",
           "ref": "codigo"
         },
         {
@@ -393,28 +393,28 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "inemaseo-sistemas: auditor y agente-ready",
-          "href": "https://github.com/inematds/inemaseo-sistemas",
+          "t": "ARCKHÉseo-sistemas: auditor y agente-ready",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas",
           "icone": "terminal"
         },
         {
           "t": "Curso 7 · Sistemas: profundizar en las herramientas",
-          "href": "https://inematds.github.io/formacao-inemaseo-sistemas-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         },
         {
           "t": "auditoria.sh del método",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/auditoria.sh",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/auditoria.sh",
           "icone": "terminal"
         },
         {
           "t": "Ventas con IA: la llamada de descubrimiento",
-          "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/aulas/call-descoberta/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "chat"
         },
         {
           "t": "WebMCP Readiness",
-          "href": "https://webmcp.inema.pro/",
+          "href": "https://webmcp.ARCKHÉ.pro/",
           "icone": "robo"
         }
       ]
